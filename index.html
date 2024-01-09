@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my coffee website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">Love<span>lite.</span> </div>
+      <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#review">Review</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="items">
+        <i class="fas fa-bars bars" onclick="run()" id="bar"></i>
+        <i class="fas fa-search search" onclick="run2()" id="search"></i>
+        <i class="fas fa-shopping-cart shopping" onclick="run3()" id="shopping"></i>
+      </div>
+    </div>
+    <div class="dropdown_menu" id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#review">Review</a></li>
+      <li><a href="#blogs">Blogs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </div>
+    <div class="searchbar" id="searchbar">
+      <input type="text" class="firstinput">
+      <button id="btn">Search</button>
+    </div>
+
+    <div class="shopping_cart" id="shopping_cart">
+      <div class="extra">
+
+        <div class="cart01">
+          <img src="img/seed1.jpg">
+          <div class="name">
+            <h3>Cart item 01</h3>
+            <div class="price">$ 35</div>
+          </div>
+          <div class="close">
+            <i class="fas fa-close"></i>
+          </div>
+        </div>
+        <div class="cart02">
+          <div class="cart01">
+            <img src="img/seed2.webp">
+            <div class="name">
+              <h3>Cart item 02</h3>
+              <div class="price">$ 35</div>
+            </div>
+            <div class="close">
+              <i class="fas fa-close"></i>
+            </div>
+          </div>
+          <div class="cart03">
+            <div class="cart01">
+              <img src="img/seed3.webp">
+              <div class="name">
+                <h3>Cart item 03</h3>
+                <div class="price">$ 35</div>
+              </div>
+              <div class="close">
+                <i class="fas fa-close"></i>
+              </div>
+            </div>
+            <div class="cart04">
+              <div class="cart01">
+                <img src="img/seed4.jpg">
+                <div class="name">
+                  <h3>Cart item 04</h3>
+                  <div class="price">$ 35</div>
+                </div>
+                <div class="close">
+                  <i class="fas fa-close"></i>
+                </div>
+              </div>
+
+              <div class="order1">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+  </header>
+
+  <div id="home">
+    <div class="info">
+
+      <h1>Fresh Coffee In</h1>
+      <h1>The Morning</h1>
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. At mollitia enim debitis fugiat earum, officiis
+        similique minus saepe omnis suscipit voluptatum nihil consectetur labore provident iusto aspernatur ducimus
+        exercitationem animi?</div>
+      <div class="order2">
+        <button>Order Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="about_head">
+      <h1><span>About</span> Us</h1>
+    </div>
+
+    <div class="about_content">
+
+      <div class="write">
+        <h2>What Makes Our Coffee Special ?</h2>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo saepe, dignissimos officiis fugiat dicta
+          rem quidem quam velit similique natus aliquid doloremque quasi ex quaerat adipisci porro obcaecati
+          voluptatibus, perspiciatis corporis reprehenderit beatae. Sapiente distinctio officiis totam rem vel?</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fuga, aut unde nihil laboriosam eligendi.
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolor ea vitae quos maiores nisi earum
+          inventore ex quia. Repellat id beatae corporis numquam magni a sequi delectus facere itaque!</div>
+        <div class="read">
+          <button>Read More...</button>
+        </div>
+      </div>
+    </div>
+    
+    <div id="menu">
+      <div class="menu_head">
+      <h1>
+        Our <span> Menu</span>
+      </h1>
+    </div>
+    <div class="menu_blocks">
+      <div class="first">
+        <img src="img/first.jpg">
+        <h2>Tasty And Healthy</h2>
+        <h3>$15.99</h3>
+        <button>Add To Cart </button>
+      </div>
+      <div class="first">
+        <img src="img/second.jpg">
+        <h2>Tasty And Healthy</h2>
+        <h3>$15.99</h3>
+        <button>Add To Cart </button>
+      </div>
+      <div class="first">
+        <img src="img/third.jpg">
+        <h2>Tasty And Healthy</h2>
+        <h3>$15.99</h3>
+        <button>Add To Cart </button>
+      </div>
+      <div class="first">
+        <img src="img/fourth.jpg">
+        <h2>Tasty And Healthy</h2>
+        <h3>$15.99</h3>
+        <button>Add To Cart </button>
+      </div>
+      <div class="first">
+        <img src="img/fifth.jpg">
+        <h2>Tasty And Healthy</h2>
+        <h3>$15.99</h3>
+        <button>Add To Cart </button>
+      </div>
+      <div class="first">
+        <img src="img/sixth.jpg">
+        <h2>Tasty And Healthy</h2>
+        <h3>$15.99</h3>
+        <button>Add To Cart </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="products">
+  <div class="product_head">
+    <h1>Latest <span>Products</span></h1>
+  </div>
+
+  <div class="product_grid">
+    <div class="fresh1">
+         <div class="fresh_icon">
+         
+          <i class="fas fa-heart"></i>
+          <i class="fas fa-eye"></i>
+         </div>
+         <img src="img/fresh1.jpg">
+         <h2>Fresh Coffee</h2>
+         <div class="stars">
+
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star "></span>
+        </div>
+        <div class="price">$15.99</div>
+    </div>
+    <div class="fresh1">
+      <div class="fresh_icon">
+
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-eye"></i>
+       </div>
+       <img src="img/fresh2.webp">
+       <h2>Fresh Coffee</h2>
+       <div class="stars">
+
+        <span class="fa fa-star cheaked"></span>
+        <span class="fa fa-star cheaked"></span>
+        <span class="fa fa-star cheaked"></span>
+        <span class="fa fa-star cheaked"></span>
+        <span class="fa fa-star "></span>
+      </div>
+      <div class="price">$15.99</div>
+    </div>
+    <div class="fresh1">
+      <div class="fresh_icon">
+
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-eye"></i>
+       </div>
+       <img src="img/fresh3.jpg">
+       <h2>Fresh Coffee</h2>
+       <div class="stars">
+
+        <span class="fa fa-star cheaked"></span>
+        <span class="fa fa-star cheaked"></span>
+        <span class="fa fa-star cheaked"></span>
+        <span class="fa fa-star cheaked"></span>
+        <span class="fa fa-star "></span>
+      </div>
+      <div class="price">$15.99</div>
+    </div>
+  </div>
+</div>
+
+<div id="review">
+  <div class="review_head">
+    <h1>Customer's <span>Review</span></h1>
+  </div>
+
+  <div class="all_review">
+    <div class="review1">
+         <div class="ring">
+          <i class="fas fa-quote-left"></i>
+        </div>
+          <div class="lor">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, minus. Debitis ducimus odio rem. Voluptatum repellat, earum mollitia praesentium optio exercitationem tempore? Impedit veritatis doloremque explicabo fuga temporibus laboriosam placeat.</div>
+          <img src="img/reweiw 1.jpg" >
+          <div class="na">Jhon Deo</div>
+          <div class="stars">
+
+            <span class="fa fa-star cheaked"></span>
+            <span class="fa fa-star cheaked"></span>
+            <span class="fa fa-star cheaked"></span>
+            <span class="fa fa-star cheaked"></span>
+            <span class="fa fa-star "></span>
+          </div>
+         
+    </div>
+    <div class="review1">
+      <div class="ring">
+        <i class="fas fa-quote-left"></i>
+      </div>
+        <div class="lor">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, minus. Debitis ducimus odio rem. Voluptatum repellat, earum mollitia praesentium optio exercitationem tempore? Impedit veritatis doloremque explicabo fuga temporibus laboriosam placeat.</div>
+        <img src="img/rewiew 2.jpg" >
+        <div class="na">Jhon Deo</div>
+        <div class="stars">
+
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star "></span>
+        </div>
+    </div>
+    <div class="review1">
+      <div class="ring">
+        <i class="fas fa-quote-left"></i>
+      </div>
+        <div class="lor">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, minus. Debitis ducimus odio rem. Voluptatum repellat, earum mollitia praesentium optio exercitationem tempore? Impedit veritatis doloremque explicabo fuga temporibus laboriosam placeat.</div>
+        <img src="img/rewiew 2.jpg" >
+        <div class="na">Jhon Deo</div>
+        <div class="stars">
+
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star cheaked"></span>
+          <span class="fa fa-star "></span>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact">
+  <div class="contact_head">
+    <h1> <span>Contact</span> Us</h1>
+  </div>
+  <div class="contact_content">
+    <div class="img">
+      <img src="img/contacyt.jpg" >
+    </div>
+    <div class="touch">
+      <h1>GET IN TOUCH </h1>
+      <input type="text"placeholder="Name">
+      <input type="email"placeholder="Email">
+      <input type="number"placeholder="Number">
+      <button>Contact Now</button>
+    </div>
+  </div>
+</div>
+
+<div id="blogs">
+   <div class="blog_head">
+    <h1>Our <span>Blogs</span></h1>
+   </div>
+   <div class="all_blog">
+    <div class="blog1">
+      <img src="img/blog1.jpg" >
+      <h2>Tasty And Refreshing Coffee</h2>
+      <h4>By Admin / 1st May 2021</h4>
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, id?</div>
+      <button>Read More</button>
+    </div>
+    
+      <div class="blog1">
+        <img src="img/blog2.jpg" >
+        <h2>Tasty And Refreshing Coffee</h2>
+        <h4>By Admin / 1st May 2021</h4>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, id?</div>
+        <button>Read More</button>
+    </div>
+  
+  
+    <div class="blog1">
+      <img src="img/blog3.jpg" >
+      <h2>Tasty And Refreshing Coffee</h2>
+      <h4>By Admin / 1st May 2021</h4>
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, id?</div>
+      <button>Read More</button>
+  </div>
+</div>
+
+<div class="footer">
+  <ul class="footer_links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#review">Review</a></li>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="end">
+    Created by <span>i_jaiswal</span> | All Rights Reserved
+  </div>
+</div>
+</body>
+
+</html>
